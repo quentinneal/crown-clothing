@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    --theme-primary: 0, 0, 0;
+    --theme-secondary: 255, 255, 255; 
+    --theme-tertiary: 186, 116, 255;
+
+    --theme-gray: 149, 149, 149;
+
+    --theme-heavy-tp: 0.9;
+    --theme-light-tp: 0.45;
+}
+
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Inter-Variable-Font', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: rgba(var(--theme-secondary), 1);
+    background-color: rgba(var(--theme-primary), 1);
+    
+    scrollbar-width: thin;
+    scrollbar-color: rgba(var(--theme-tertiary), 1) transparent;
+}
+
+#root {
+    height: 100%;
+}
+
+.App {
+    background-color: rgba(var(--theme-secondary), 1);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, textarea, button{
+    font-family:inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-color: rgba(var(--theme-primary), var(--theme-heavy-tp));
+}
+
+.App.mousedown *:focus {
+    outline: 0;
+    
+}
+
+.App.keydown *:focus {
+    outline: 4px solid yellow;
+    //outline-offset: -4px;
+}
+
+
+
+
+
+/*.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(var(--theme-primary), var(--theme-heavy-tp));
+    display: none;
+}*/
+
+//:focus {
+    //outline: rgba(var(--theme-tertiary), 1) inset 1px;
+//}
+
+//testing
+
+

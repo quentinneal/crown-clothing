@@ -1,0 +1,20 @@
+.footer {
+    background-color: rgba(var(--theme-primary), 1);
+    border-top: 1px solid rgba(var(--theme-secondary), 1);
+    padding: 3rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: auto;
+
+    @media screen and (max-width: 1679px) {padding: 2.80rem; font-size: 1.36rem}
+    @media screen and (max-width: 1439px) {padding: 2.64rem; font-size: 1.33rem}
+    @media screen and (max-width: 1199px) {padding: 2.48rem; font-size: 1.29rem}
+    @media screen and (max-width: 959px) {padding: 2.32rem; font-size: 1.26rem}
+    @media screen and (max-width: 719px) {padding: 2.16rem; font-size: 1.23rem}
+    @media screen and (max-width: 479px) {padding: 2rem; font-size: 1.2rem}
+    @media screen and (max-width: 239px) {padding: 2rem; font-size: 1.2rem}
+
+    .copyright {
+        color: rgba(var(--theme-tertiary), 1);
+    }
+}

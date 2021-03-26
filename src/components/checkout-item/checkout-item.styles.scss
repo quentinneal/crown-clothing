@@ -1,0 +1,135 @@
+.checkout-item {
+  display: flex;
+  padding: 4rem 2rem 0;
+  font-size: 1.9rem;
+
+  @media screen and (max-width: 1199px) and (min-width: 720px) {
+    display: block;
+    font-size: 1.9rem;
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  @media screen and (max-width: 719px)  {
+    display: block;
+    font-size: 1.9rem;
+  }
+
+  @media screen and (max-width: 719px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkout-element {
+    margin: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @media screen and (max-width: 1199px) and (min-width: 720px) {
+      margin: 0 2rem;
+      justify-content: flex-start;
+      text-align: left;
+      &:not(:first-child) {
+        margin-bottom: 1rem;
+      }
+    }
+
+    @media screen and (max-width: 719px) {
+      justify-content: flex-start;
+      text-align: center;
+      margin: 0 0 1rem;
+    }
+  }
+
+  .image-container {
+    width: 20rem;
+    flex: 1 1 0;
+    
+    @media screen and (max-width: 1199px) and (min-width: 720px) {
+      float: left;
+    }
+
+   img {
+    object-fit: cover;
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid rgba(var(--theme-tertiary), 1);
+    } 
+  }
+
+    .name {
+      flex: 1 1 0;
+      
+    }
+
+    .quantity {
+      flex: 1 1 0;
+      
+      .arrow {
+        cursor: pointer;
+        display: flex;
+        width: 3rem;
+        height: 3rem;
+        border-radius: .4rem;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(var(--theme-tertiary), 1);
+        color: rgba(var(--theme-primary), 1);
+        transition: color .1s ease-in, background-color .1s ease-in;
+
+        svg {
+          width: 2rem;
+        }
+      }
+
+      .value {
+        //margin: 0 2rem;
+        display: flex;
+        justify-content: center;
+        width: 4rem;
+        height: 3rem;
+        display: flex;
+      }
+    }
+
+    .price {
+      flex: 1 1 0;
+    }
+
+    .remove-button {
+      flex: 1 1 0;
+      transition: color .1s ease-in;
+      
+      .x-button {
+        cursor: pointer;
+        width: 3rem;
+        height: 3rem;
+        border-radius: .4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(var(--theme-tertiary), 1);
+        color: rgba(var(--theme-primary), 1);
+        transition: color .1s ease-in, background-color .1s ease-in;
+      }
+
+      svg {
+        width: 1.7rem;
+      }
+
+      @media screen and (max-width: 1199px) and (min-width: 720px) {
+        font-size: 2.4rem;
+      }
+
+      &:hover {
+        color: rgba(var(--theme-tertiary), 1);
+      }
+    }
+}

@@ -1,0 +1,114 @@
+.custom-button {
+  display: block;
+  border-radius: .5rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.title-button .custom-button {
+  padding: 1.6rem 2rem;
+  color: rgba(var(--theme-secondary), 1);
+  border: 1px solid rgba(var(--theme-tertiary), 1);
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: background-color .1s ease-in, color .1s ease-in, box-shadow .1s ease-in;
+
+  @media screen and (max-width: 1679px) {padding: 1.6rem 1.93rem; font-size: 1.48rem;}
+  @media screen and (max-width: 1439px) {padding: 1.6rem 1.86rem; font-size: 1.45rem;}
+  @media screen and (max-width: 1199px) {padding: 1.6rem 1.79rem; font-size: 1.42rem;}
+  @media screen and (max-width: 959px) {padding: 1.6rem 1.73rem; font-size: 1.39;}
+  @media screen and (max-width: 719px) {padding: 1.6rem 1.66rem; font-size: 1.36rem;}
+  @media screen and (max-width: 479px) {padding: 1.6rem 1.6rem; font-size: 1.3rem;}
+  @media screen and (max-width: 239px) {padding: 1.6rem 1.6rem; font-size: 1.3rem;}
+
+  &:hover {
+    background-color: rgba(var(--theme-tertiary), 1);
+    color: rgba(var(--theme-primary), 1);
+  }
+}
+
+.collection-item .custom-button {
+  padding: 1.6rem 2rem;
+  color: rgba(var(--theme-secondary), 1);
+  border: 1px solid rgba(var(--theme-tertiary), 1);
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: opacity .1s ease-in, background-color .1s ease-in, color .1s ease-in, box-shadow .1s ease-in;
+  
+  &:hover {
+    background-color: rgba(var(--theme-tertiary), 1);
+    color: rgba(var(--theme-primary), 1);
+  }
+}
+
+.cart-dropdown .custom-button {
+  padding: 1.6rem 2rem;
+  color: rgba(var(--theme-secondary), 1);
+  border: 1px solid rgba(var(--theme-tertiary), 1);
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: background-color .1s ease-in, color .1s ease-in, box-shadow .1s ease-in;
+
+  &:hover {
+    background-color: rgba(var(--theme-tertiary), 1);
+    color: rgba(var(--theme-primary), 1);
+  }
+}
+
+.sign-in-and-sign-up .custom-button {
+  font-size: 1.3rem;
+  padding: 1.4rem 1.8rem;
+  line-height: 1.7;
+  color: rgba(var(--theme-secondary), 1);
+  border: 1px solid rgba(var(--theme-tertiary), 1);
+  font-weight: 500;
+  transition: background-color .1s ease-in, color .1s ease-in, box-shadow .1s ease-in;
+
+  @media screen and (max-width: 1679px) {font-size: 1.232rem; padding: 1.4rem 1.8rem; line-height: 1.7;}
+  @media screen and (max-width: 1439px) {font-size: 1.166rem; padding: 1.4rem 1.8rem; line-height: 1.7;}
+  @media screen and (max-width: 1199px) {font-size: 1.1rem; padding: 1.4rem 1.8rem; line-height: 1.7;}
+  @media screen and (max-width: 959px) {font-size: 1.3rem; padding: 1.4rem 1.8rem; line-height: 1.7;}
+  @media screen and (max-width: 719px) {font-size: 1.2rem; padding: 1.4rem 1.8rem; line-height: 1.7;}
+  @media screen and (max-width: 479px) {font-size: 1.1rem; padding: 1.4rem 1.8rem; line-height: 1.7;}
+  @media screen and (max-width: 239px) {font-size: 1.1rem; padding: 1.4rem 1.8rem; line-height: 1.7;}
+
+  &:hover {
+    background-color: rgba(var(--theme-tertiary), 1);
+    color: rgba(var(--theme-primary), 1);
+  }
+}
+
+.checkout-page .custom-button {
+  padding: 1.6rem 2rem;
+  color: rgba(var(--theme-secondary), 1);
+  border: 1px solid rgba(var(--theme-tertiary), 1);
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: inline-block;
+  transition: background-color .1s ease-in, color .1s ease-in, box-shadow .1s ease-in;
+  
+  &:hover {
+    background-color: rgba(var(--theme-tertiary), 1);
+    color: rgba(var(--theme-primary), 1);
+  }
+}
+
+.google-sign-in.custom-button {
+  margin-left: 3rem;
+  color: rgba(var(--theme-secondary), 1);
+  border: 1px solid #4285F4;
+  transition: background-color .1s ease-in, color .1s ease-in, box-shadow .1s ease-in;
+
+  @media screen and (max-width: 1679px) {margin-left: 2.66rem;}
+  @media screen and (max-width: 1439px) {margin-left: 2.33rem;}
+  @media screen and (max-width: 1199px) {margin-left: 2rem;}
+  @media screen and (max-width: 959px) {margin-left: 3rem;}
+  @media screen and (max-width: 719px) {margin-left: 2.5rem;}
+  @media screen and (max-width: 479px) {margin-left: 2rem;}
+  @media screen and (max-width: 239px) {margin-left: 2rem;}
+
+  &:hover {
+    background-color: #4285F4;
+    color: rgba(var(--theme-secondary), 1);
+  }
+}

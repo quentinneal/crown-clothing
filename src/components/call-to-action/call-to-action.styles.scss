@@ -1,0 +1,105 @@
+/*.call-to-action-image {
+    height:85vh;
+    background: rgba(var(--theme-primary), 1) no-repeat center;
+    background-size: cover;
+
+    .call-to-action-overlay {
+      background-color: rgba(var(--theme-tertiary), var(--theme-light-tp));
+      height: 100%;
+      display: flex;
+      align-items: center;
+        
+      .call-to-action-title {
+        font-size: 4.4rem;
+        font-weight: 200;
+        color: rgba(var(--theme-tertiary), 1);
+        background-color: rgba(var(--theme-primary), .8);
+        padding:2rem 4rem;
+        width: fit-content;
+
+        @media screen and (max-width: 1679px) {padding: 2rem 4rem; font-size: 4.05rem;}
+        @media screen and (max-width: 1439px) {padding: 2rem 4rem; font-size: 3.72rem;}
+        @media screen and (max-width: 1199px) {padding: 2rem 3rem; font-size: 3.39rem;}
+        @media screen and (max-width: 959px) {padding: 2rem 3rem; font-size: 3.06rem;}
+        @media screen and (max-width: 719px) {padding: 2rem 3rem; font-size: 2.73rem;}
+        @media screen and (max-width: 479px) {padding: 2rem; font-size: 2.4rem;}
+        @media screen and (max-width: 239px) {padding: 2rem; font-size: 2.4rem;}
+      }
+
+      .call-to-action-content {
+        font-size: 2rem;
+        font-weight: 200;
+        background-color: rgba(var(--theme-primary), .8);
+        padding:2rem 4rem;
+        margin-top: 1px;
+        width: fit-content;
+
+        @media screen and (max-width: 1679px) {padding: 2rem 4rem; font-size: 1.9rem;}
+        @media screen and (max-width: 1439px) {padding: 2rem 4rem; font-size: 1.8rem;}
+        @media screen and (max-width: 1199px) {padding: 2rem 3rem; font-size: 1.7rem;}
+        @media screen and (max-width: 959px) {padding: 2rem 3rem; font-size: 1.6rem;}
+        @media screen and (max-width: 719px) {padding: 2rem 3rem; font-size: 1.5rem;}
+        @media screen and (max-width: 479px) {padding: 2rem; font-size: 1.4rem;}
+        @media screen and (max-width: 239px) {padding: 2rem; font-size: 1.4rem;} 
+      }
+    }
+  }*/
+
+  .call-to-action-image {
+    height:85vh;
+    background: rgba(var(--theme-primary), 1) no-repeat center;
+    background-size: cover;
+
+    .call-to-action-overlay {
+      background-color: rgba(var(--theme-tertiary), var(--theme-light-tp));
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .call-to-action {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .call-to-action-title {
+        font-size: 8rem;
+        font-weight: 600;
+        color: rgba(var(--theme-secondary), 1);
+        text-shadow: 1px 1px 2px black;
+        //background-color: rgba(var(--theme-primary), .8);
+        //padding:2rem 4rem;
+        width: fit-content;
+
+        @media screen and (max-width: 1679px) {/*padding: 2rem 4rem;*/ font-size: 7.2rem;}
+        @media screen and (max-width: 1439px) {/*padding: 2rem 4rem;*/ font-size: 6.3rem;}
+        @media screen and (max-width: 1199px) {/*padding: 2rem 3rem;*/ font-size: 5.5rem;}
+        @media screen and (max-width: 959px) {/*padding: 2rem 3rem;*/ font-size: 4.7rem;}
+        @media screen and (max-width: 719px) {/*padding: 2rem 3rem;*/ font-size: 3.8rem;}
+        @media screen and (max-width: 479px) {/*padding: 2rem;*/ font-size: 3rem;}
+        @media screen and (max-width: 239px) {/*padding: 2rem;*/ font-size: 3rem;}
+      }
+
+        .call-to-action-content {
+          font-size: 3rem;
+          font-weight: 600;
+          //background-color: rgba(var(--theme-primary), .8);
+          //padding:2rem 4rem;
+          margin-top: 1px;
+          text-shadow: 1px 1px 1px black;
+          width: fit-content;
+
+          @media screen and (max-width: 1679px) {/*padding: 2rem 4rem;*/ font-size: 1.9rem;}
+          @media screen and (max-width: 1439px) {/*padding: 2rem 4rem;*/ font-size: 1.8rem;}
+          @media screen and (max-width: 1199px) {/*padding: 2rem 3rem;*/ font-size: 1.7rem;}
+          @media screen and (max-width: 959px) {/*padding: 2rem 3rem;*/ font-size: 1.6rem;}
+          @media screen and (max-width: 719px) {/*padding: 2rem 3rem;*/ font-size: 1.5rem;}
+          @media screen and (max-width: 479px) {/*padding: 2rem;*/ font-size: 1.6rem;}
+          @media screen and (max-width: 239px) {/*padding: 2rem;*/ font-size: 1.6rem;} 
+        }
+      }
+        
+      
+    }
+  }

@@ -1,0 +1,56 @@
+.input-group {
+  margin-top: 2rem;
+
+  .form-input {
+    font-size: 1.9rem;
+    font-weight: 200;
+    background-color: transparent;
+    color: rgba(var(--theme-secondary), 1);
+    width: 100%;
+    padding-bottom: .5rem;
+    //border-width: 0;
+    border-style: none;
+    border-bottom: 1px solid rgba(var(--theme-secondary), 1);
+
+    //safari mobile thin corner bugs
+    -webkit-appearance: none;
+    border-radius: 0;
+
+    //firefox autofill background color change
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+
+
+    @media screen and (max-width: 1679px) {font-size: 1.932rem;}
+    @media screen and (max-width: 1439px) {font-size: 1.866rem;}
+    @media screen and (max-width: 1199px) {font-size: 1.8rem;}
+    @media screen and (max-width: 959px) {font-size: 1.9rem;}
+    @media screen and (max-width: 719px) {font-size: 1.85rem;}
+    @media screen and (max-width: 479px) {font-size: 1.8rem;}
+    @media screen and (max-width: 239px) {font-size: 1.8rem;}
+
+    &:focus {
+      //outline: none;
+      border-bottom: 1px solid rgba(var(--theme-tertiary), 1);
+  
+      &:invalid {
+        //outline: none;
+        border-bottom: 1px solid #FF0000;
+      }
+    }
+  }
+  
+  .form-input-label {
+    font-weight: 500;
+    font-size: 1.3rem;
+
+    @media screen and (max-width: 1679px) {font-size: 1.266rem;}
+    @media screen and (max-width: 1439px) {font-size: 1.233rem;}
+    @media screen and (max-width: 1199px) {font-size: 1.2rem;}
+    @media screen and (max-width: 959px) {font-size: 1.3rem;}
+    @media screen and (max-width: 719px) {font-size: 1.25rem;}
+    @media screen and (max-width: 479px) {font-size: 1.2rem;}
+    @media screen and (max-width: 239px) {font-size: 1.2rem;}
+  }
+}
+

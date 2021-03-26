@@ -1,0 +1,15 @@
+.sign-in-and-sign-up {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 6rem;
+  flex: 1 0 auto; // alternative sticky footer option
+  align-items: flex-start;
+
+  @media screen and (max-width: 1679px) {}
+  @media screen and (max-width: 1439px) {}
+  @media screen and (max-width: 1199px) {}
+  @media screen and (max-width: 959px) {flex-direction: column; max-width: 719px;}
+  @media screen and (max-width: 719px) {}
+  @media screen and (max-width: 479px) {}
+  @media screen and (max-width: 239px) {}
+}

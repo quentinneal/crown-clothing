@@ -1,0 +1,25 @@
+<svg
+   width="28"
+   height="28"
+   viewBox="0 0 14 14"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   class="feather feather-x"
+   version="1.1"
+   >
+  <line
+     x1="13"
+     y1="1"
+     x2="1"
+     y2="13"
+     id="line2" />
+  <line
+     x1="1"
+     y1="1"
+     x2="13"
+     y2="13"
+     id="line4" />
+</svg>

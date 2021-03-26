@@ -1,0 +1,53 @@
+.sign-up {
+  margin: 0 4rem 4rem;
+  padding: 6rem;
+  //border: 1px solid rgba(var(--theme-tertiary), 1);
+  background-color: rgba(var(--theme-primary), 1);
+
+  @media screen and (max-width: 1679px) {margin: 0 4rem 4rem; padding: 5.32rem}
+  @media screen and (max-width: 1439px) {margin: 0 4rem 4rem; padding: 4.66rem}
+  @media screen and (max-width: 1199px) {margin: 0 4rem 4rem; padding: 4rem}
+  @media screen and (max-width: 959px) {margin: 0 4rem 4rem; padding: 6rem}
+  @media screen and (max-width: 719px) {margin: 0 4rem 4rem; padding: 5rem}
+  @media screen and (max-width: 479px) {margin: 0 4rem 4rem; padding: 4rem}
+  @media screen and (max-width: 239px) {margin: 0 4rem 4rem; padding: 4rem}
+  
+  .sign-up-title {
+    font-size: 2.7rem;
+    text-align: center;
+    font-weight: 200;
+
+    @media screen and (max-width: 1679px) {font-size: 2.532rem;}
+    @media screen and (max-width: 1439px) {font-size: 2.466rem;}
+    @media screen and (max-width: 1199px) {font-size: 2.4rem;}
+    @media screen and (max-width: 959px) {font-size: 2.6rem;}
+    @media screen and (max-width: 719px) {font-size: 2.5rem;}
+    @media screen and (max-width: 479px) {font-size: 2.4rem;}
+    @media screen and (max-width: 239px) {font-size: 2.4rem;}
+  }
+  
+  .sign-up-description {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 300;
+    
+    @media screen and (max-width: 1679px) {font-size: 1.432rem;}
+    @media screen and (max-width: 1439px) {font-size: 1.366rem;}
+    @media screen and (max-width: 1199px) {font-size: 1.3rem;}
+    @media screen and (max-width: 959px) {font-size: 1.5rem;}
+    @media screen and (max-width: 719px) {font-size: 1.4rem;}
+    @media screen and (max-width: 479px) {font-size: 1.3rem;}
+    @media screen and (max-width: 239px) {font-size: 1.3rem;}
+  }
+
+  .sign-up-form {
+    margin-top: 4rem;
+
+    .custom-button-container {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 3rem;
+    }
+  }
+}

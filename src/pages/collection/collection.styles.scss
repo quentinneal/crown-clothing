@@ -1,0 +1,37 @@
+.collection-page {
+
+  &:hover .title {
+      color: rgba(var(--theme-tertiary), 1);
+  }
+
+  .title {
+    background-color: rgba(var(--theme-primary), 1);
+    padding: 3rem;
+    font-size: 3rem;
+    font-weight: 300;
+    transition: color .1s ease-in;
+
+    @media screen and (max-width: 1679px) {padding: 2.83rem; font-size: 2.86rem;}
+    @media screen and (max-width: 1439px) {padding: 2.66rem; font-size: 2.73rem;}
+    @media screen and (max-width: 1199px) {padding: 2.49rem; font-size: 2.59rem;}
+    @media screen and (max-width: 959px) {padding: 2.33rem; font-size: 2.46rem;}
+    @media screen and (max-width: 719px) {padding: 2.16rem; font-size: 2.33rem;}
+    @media screen and (max-width: 479px) {padding: 2rem; font-size: 2.2rem;}
+    @media screen and (max-width: 239px) {padding: 2rem; font-size: 2.2rem;}
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 20vw;
+    background-color: rgba(var(--theme-primary), 1);
+
+    @media screen and (max-width: 1679px) {grid-template-columns: repeat(4, 1fr); grid-auto-rows: 20vw;}
+    @media screen and (max-width: 1439px) {grid-template-columns: repeat(3, 1fr); grid-auto-rows: 30vw;}
+    @media screen and (max-width: 1199px) {grid-template-columns: repeat(3, 1fr); grid-auto-rows: 30vw;}
+    @media screen and (max-width: 959px) {grid-template-columns: repeat(2, 1fr); grid-auto-rows: 40vw;}
+    @media screen and (max-width: 719px) {grid-template-columns: repeat(2, 1fr); grid-auto-rows: 40vw;}
+    @media screen and (max-width: 479px) {grid-template-columns: repeat(1, 1fr); grid-auto-rows: 80vw;}
+    @media screen and (max-width: 239px) {grid-template-columns: repeat(1, 1fr); grid-auto-rows: 80vw;}//84, 42, 28, 21 or 72, 36, 24, 18
+  }
+}

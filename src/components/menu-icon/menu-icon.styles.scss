@@ -1,0 +1,20 @@
+.menu-icon-container {
+  cursor: pointer;
+  padding: 2.2rem;
+  order: 1;
+  display: none;
+  @media screen and (max-width: 640px) {display: flex;}
+  @media screen and (max-width: 479px) {display: flex; padding: 2.1rem;}
+  @media screen and (max-width: 239px) {display: flex; padding: 2.1rem;}
+  
+  &:hover .menu-icon {
+    stroke: rgba(var(--theme-tertiary), 1);
+  }
+  
+  .menu-icon {
+      width: 3.0rem;
+      height: 3.0rem;
+      @media screen and (max-width: 479px) {width: 2.9rem; height: 2.9rem;}
+      @media screen and (max-width: 239px) {width: 2.9rem; height: 2.9rem;}
+  }
+}

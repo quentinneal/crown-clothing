@@ -1,0 +1,58 @@
+.menu-item {
+    overflow: hidden;
+    position: relative;
+    grid-column: span 1;
+    font-size: 4.4rem;
+    font-weight: 100;
+
+    @media screen and (max-width: 1679px) {font-size: 4.12rem}
+    @media screen and (max-width: 1439px) {font-size: 3.84rem}
+    @media screen and (max-width: 1199px) {font-size: 3.56rem}
+    @media screen and (max-width: 959px) {font-size: 3.28rem}
+    @media screen and (max-width: 719px) {font-size: 3.0rem}
+    @media screen and (max-width: 479px) {font-size: 3.2rem}
+    @media screen and (max-width: 239px) {font-size: 3.2rem}
+    
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        //outline: none;
+    }
+
+    &:hover .menu-background,
+    &:focus .menu-background  {
+        transform: scale(1.1);
+    }
+
+    &:hover .menu-foreground,
+    &:focus .menu-foreground  {
+        transform: translateY(100%);
+    }
+
+    .menu-background {
+        background: no-repeat center;
+        background-size: cover;
+        height: 100%;
+        transition: transform .4s ease;
+    }
+    
+    .menu-foreground {
+        background-color: rgba(var(--theme-tertiary), var(--theme-light-tp));
+        color: rgba(var(--theme-secondary), 1);
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem ;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        right: 0;
+        bottom: 100%;
+        transition: transform .4s ease;
+        
+        .menu-title {
+            text-transform: capitalize;
+        }
+    }
+}
