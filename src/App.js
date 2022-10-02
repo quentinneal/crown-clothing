@@ -36,7 +36,7 @@ const App = ({ checkUserSession, currentUser }) => {
   (see firebase.utils.js). This code will then scan for the database info (snapshot) which is
   immediately detected or detected after it is created (createUserProfileDocument).
   This code will then update the state with the database details so it can be used in
-  the application (Hello Quentin! etc).*/
+  the application (Hello Quentin! etc)*/
 
  
 // Initial keyboard use allows keyboard highlight navigation
