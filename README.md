@@ -1,8 +1,8 @@
-# Crwn-clothing
+# Crown Clothing
 
-Modified version of Crwn-clothing project from Complete React Developer Udemy tutorial
+Modified version of Crown Clothing project from Complete React Developer Udemy tutorial
 
-[Demo](https://crwn-live-quentin.herokuapp.com/)
+[Demo](https://crown-clothing-live-quentin.herokuapp.com/)
 
 [Original](https://crwnshop.herokuapp.com/)
 
